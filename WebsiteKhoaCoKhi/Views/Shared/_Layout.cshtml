@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=chrome'>
+    <title>Trang chủ</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='/Assets/client/style.css'>
+    <link href="~/Assets/admin/css/PagedList.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/2a67ded97d.js" crossorigin="anonymous"></script>
+    <script src='/Assets/client/main.js'></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="banner" class="container-fluid">
+            <div class="container" style="padding:0">
+                <a class="navbar-brand" href="/">
+                    <img src="~/Data/images/top.jpg">
+                </a>
+            </div>
+        </div>
+        @{Html.RenderAction("MainMenu", "Home"); }
+    </header>
+    <div class="clr"></div>
+    @RenderBody()
+    <footer>
+        <div class="container" id="footer">
+            <div class="ftLink hidden-xs">
+                <div class="row">
+                    <div class="col-md-9">
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Tin tức - sự kiện</a></li>
+                            <li><a href="#">Sinh viên</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <a href="#">
+                            <i class="fa fa-home"></i>
+                            Lên đầu trang
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="under-footer">
+            <h6 style="text-transform:uppercase">Khoa Cơ Khí - Trường Đại học Kỹ thuật Công nghiệp</h6>
+            <p>Địa chỉ: Đường 3-2, Phường Tích Lương, TP Thái Nguyên</p>
+            <p>Điện thoại: 0208 384 7164; 0912 804 321. Email: <span style="color:aqua">khoacokhi@tnut.edu.vn</span></p>
+            Copyright &copy; Thắng Dương HT 2020. All rights reserved.
+        </div>
+    </footer>
+    
+</body>
+
+</html>

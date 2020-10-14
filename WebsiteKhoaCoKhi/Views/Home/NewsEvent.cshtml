@@ -1,0 +1,20 @@
+﻿@model List<Model.EF.New>
+
+
+<p>
+    <a href="#"><i class="fa fa-list-ul"></i>TIN TỨC - SỰ KIỆN</a>
+</p>
+
+@foreach (var item in Model)
+{
+<div class="news-item">
+    <a href="/news/@item.metaTitle">
+        <img src="@item.images">
+    </a>
+    <a href="/news/@item.metaTitle">
+        <p id="txtNew">@item.name</p>
+    </a>
+</div>
+}
+
+

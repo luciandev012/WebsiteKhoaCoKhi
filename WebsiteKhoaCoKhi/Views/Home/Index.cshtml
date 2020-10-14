@@ -1,0 +1,140 @@
+﻿
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="body">
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Data/images/slide1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Data/images/slide1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Data/images/slide1.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pd10 text-center">
+                    <h2 class="section-heading">NGÀNH HỌC</h2>
+                </div>
+                <hr class="line" id="mline" />
+            </div>
+        </div>
+        <div class="row" style="padding: 0 15px;">
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <div class="inner">
+                    <div class="img-item">
+                        <a href="#"><img src="~/Data/images/3.jpg"></a>
+                    </div>
+                    <div class="cap">
+                        <a href="#">KỸ THUẬT VẬT LIỆU</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <div class="inner">
+                    <div class="img-item">
+                        <a href="#"><img src="~/Data/images/4.jpg"></a>
+                    </div>
+                    <div class="cap">
+                        <a href="#">Kỹ thuật cơ điện tử</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <div class="inner">
+                    <div class="img-item">
+                        <a href="#"><img src="~/Data/images/5.jpg"></a>
+                    </div>
+                    <div class="cap">
+                        <a href="#">kỹ thuật Cơ khí</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="left-ad" id="advLeft" name="left">
+            <a href="#">
+                <img src="~/Data/images/left.jpg" />
+            </a>
+        </div>
+        <div class="right-ad" id="advRight" name="right">
+            <a href="#">
+                <img src="~/Data/images/right.jpg" />
+            </a>
+        </div>
+    </div>
+    <div class="container" id="new">
+        <div class="row" style="padding: 0 15px;">
+            <div class="col-md-9 col-lg-9 col-sm-9 col-xs-12">
+                <div class="row" id="leftNew">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                        @{ Html.RenderAction("Notice", "Home");}
+                        
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                        @{ Html.RenderAction("NewsEvent", "Home");}
+
+                    </div>
+                </div>
+            </div>
+            @{ Html.RenderAction("NewsMenu", "Home");}
+        </div>
+    </div>
+    <div class="container" id="rowIcon">
+        <div class="row">
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+                <div class="item">
+                    <i class="fa fa-2x fa-gavel text-info"></i>
+                    <a href="#"><h5>Văn bản pháp luật</h5></a>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+                <div class="item">
+                    <i class="fa fa-2x fa-users text-info"></i>
+                    <a href="#"><h5>Khảo sát</h5></a>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+                <div class="item">
+                    <i class="fa fa-2x fa-slideshare text-info"></i>
+                    <a href="#"><h5>Thông tin tuyển dụng</h5></a>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+                <div class="item">
+                    <i class="fa fa-2x fa-sun-o text-info"></i>
+                    <a href="#"><h5>Diễn đàn sinh viên</h5></a>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+                <div class="item">
+                    <i class="fa fa-2x fa-gg text-info"></i>
+                    <a href="#"><h5>Tài liệu số</h5></a>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+                <div class="item">
+                    <i class="fa fa-2x fa-calendar text-info"></i>
+                    <a href="#"><h5>Lịch công tác</h5></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+   
+</div>
+
