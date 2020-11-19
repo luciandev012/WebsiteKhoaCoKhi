@@ -1,0 +1,79 @@
+﻿@model Model.EF.New
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var subMenu = (List<Model.EF.SubMenu>)ViewBag.SubMenus;
+}
+
+<div id="body">
+    <div class="container" id="head-body">
+        <div style="padding-left:15px; padding-right:15px">
+            <div class="row" id="firstRow">
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="padding-top: 13px;padding-left:0;">
+                    <p>@DateTime.Now.ToString("HH:mm 'Ngày' dd/MM/yyyy")</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="padding-bottom: 15px;padding-right:0;">
+                    <form>
+                        <div class="search input-group">
+                            <input type="text" style="border: none;" class="form-control" placeholder="Tìm kiếm theo từ khóa">
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="secondRow">
+            <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12" style="margin-top: -5px">
+                <div class="head-name">
+                    <p>@ViewBag.Category</p>
+                </div>
+                <div class="news-content">
+                    <h2>@Model.name</h2>
+                </div>
+                <div class="post-info">
+                    <p>
+                        @{if (Model.modifyDate.HasValue)
+                            {
+                                var date = (DateTime)Model.modifyDate;
+                                <span class="time">@date.ToString("HH:mm")</span> @date.ToString("dd/MM/yyyy")
+                            }
+                            else
+                            {
+                                var date = (DateTime)Model.createdDate;
+                                <span class="time">@date.ToString("HH:mm")</span> @date.ToString("dd/MM/yyyy")
+                            } } | <i class="fa fa-eye"></i> @Model.newView.ToString()
+                        </p>
+                    </div>
+                    <div>
+                        @Html.Raw(Model.content)
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                    <div class="head-nav">
+                        <h5>Danh mục</h5>
+                    </div>
+                    <div class="content-nav">
+                        <ul>
+                            @foreach (var item in subMenu)
+                            {
+                                if (item.id == ViewBag.SubMenuId)
+                                {
+                                    <li class="active"><a href="/@item.link">@item.text</a></li>
+                                }
+                                else
+                                {
+                                    <li><a href="/@item.link">@item.text</a></li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+

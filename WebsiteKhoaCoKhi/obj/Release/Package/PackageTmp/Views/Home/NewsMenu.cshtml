@@ -1,0 +1,18 @@
+﻿@model List<Model.EF.New>
+<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12" id="hotNew">
+    <div class="hnew">
+        <i class="fa fa-bookmark-o"></i>TIN NỔI BẬT
+    </div>
+
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="/news/@item.metaTitle">@item.title</a></li>
+        }
+        @*<li><a href="#">Hội thảo tuyển dụng Samsung 2020</a></li>
+        <li><a href="#">Chào tháng 5 rực rỡ</a></li>
+        <li><a href="#">Hội thảo tuyển dụng Samsung 2020</a></li>
+        <li><a href="#">Hội thảo tuyển dụng Samsung 2020</a></li>
+        <li><a href="#">Hội thảo tuyển dụng Samsung 2020</a></li>*@
+    </ul>
+</div>

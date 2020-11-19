@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WebsiteKhoaCoKhiDbContext-Web.config Connection String" description="WebsiteKhoaCoKhiDbContext Connection String used in web.config by the application to access the database." defaultValue="data source=.;initial catalog=WebsiteKhoaCoKhi;user id=sa;password=123456;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\TaiLieuHocTap\\ASP\.NET\\WebsiteKhoaCoKhi\\WebsiteKhoaCoKhi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebsiteKhoaCoKhiDbContext']/@connectionString" />
+  </parameter>
+</parameters>

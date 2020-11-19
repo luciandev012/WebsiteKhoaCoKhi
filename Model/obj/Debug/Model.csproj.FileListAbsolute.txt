@@ -22,3 +22,27 @@ G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\Microsoft.Web.Infra
 G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\System.Web.WebPages.Deployment.dll
 G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.Migrations.createdatabase.resources
 G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.csproj.GenerateResource.cache
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\Model.dll.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\Model.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\Model.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\EntityFramework.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\PagedList.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\PagedList.Mvc.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\System.Web.Mvc.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\System.Web.WebPages.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\System.Web.WebPages.Razor.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\System.Web.Razor.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\EntityFramework.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\PagedList.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\bin\Debug\PagedList.Mvc.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.Migrations.createdatabase.resources
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.csproj.GenerateResource.cache
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.csproj.CopyComplete
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\Model\obj\Debug\Model.pdb

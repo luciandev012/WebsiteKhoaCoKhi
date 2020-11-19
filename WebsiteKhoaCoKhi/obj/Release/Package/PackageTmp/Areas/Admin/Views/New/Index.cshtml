@@ -1,0 +1,90 @@
+﻿@model PagedList.IPagedList<Model.EF.New>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<h1>Danh sách Tin tức</h1>
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    
+    <div class="card shadow mb-4">
+        
+        <div class="card-body">
+            @using (Html.BeginForm("Index", "New", FormMethod.Get))
+            {
+                <form class="form-inline mr-auto w-100 navbar-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-light border-0 small" value="@ViewBag.SearchString" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" name="searchString">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">
+                                <i class="fas fa-search fa-sm"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            }
+            <div class="table-responsive" style="margin-top: 20px;">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Sửa, xóa</th>
+                            <th>Id</th>
+                            <th>Tên tin</th>
+                            <th>Tiêu đề</th>
+                            <th>meta-title</th>
+                            @*<th>Nội dung</th>*@
+                            <th>Ảnh</th>
+                            <th>Loại tin</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Sửa, xóa</th>
+                            <th>Id</th>
+                            <th>Tên tin</th>
+                            <th>Tiêu đề</th>
+                            <th>meta-title</th>
+                            @*<th>Nội dung</th>*@
+                            <th>Ảnh</th>
+                            <th>Loại tin</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr id="row_@item.id">
+                                <td>
+                                    <a href="/Admin/New/Edit/@item.id">Sửa</a>
+                                    |
+                                    @Ajax.ActionLink("Xóa", "Delete", new { @id = item.id }, new AjaxOptions {
+                                   Confirm = "Bạn có muốn xóa tin này không?",
+                                   OnComplete = "$('#row_"+@item.id+"').remove()",
+                                   HttpMethod = "Delete"
+                               })
+                                </td>
+                                <td>@item.id</td>
+                                <td>@item.name</td>
+                                <td>@item.title</td>
+                                <td>@item.metaTitle</td>
+                                @*<td>@item.content</td>*@
+                                <td>@item.images</td>
+                                <td>@item.categoryId</td>
+                            </tr>
+                        }
+
+
+
+                    </tbody>
+                </table>
+                <a href="/Admin/New/Create" class="btn btn-primary">Thêm mới</a>
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = ViewBag.SearchString}))
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+      
+<!-- End of Main Content -->

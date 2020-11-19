@@ -1,0 +1,100 @@
+﻿@model PagedList.IPagedList<Model.EF.New>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "News";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var SubMenus = (List<Model.EF.SubMenu>)ViewBag.SubMenus;
+}
+
+<div id="body">
+    <div class="container" id="head-body">
+        <div style="padding-left:15px; padding-right:15px">
+            <div class="row" id="firstRow">
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="padding-top: 13px;padding-left:0;">
+                    <p>@DateTime.Now.ToString("HH:mm 'Ngày' dd/MM/yyyy")</p>
+                </div>
+                <div class="col-md-6" style="padding-bottom: 15px;padding-right:0;">
+                    <form>
+                        <div class="search input-group">
+                            <input type="text" style="border: none;" class="form-control" placeholder="Tìm kiếm theo từ khóa">
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="secondRow">
+            <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12" style="margin-top: -5px">
+                <div class="head-name">
+                    <p>@ViewBag.SubText</p>
+                </div>
+                <div class="news-content">
+                    <h2>@ViewBag.SubText</h2>
+                </div>
+                @foreach (var item in Model)
+                {
+                    <div class="list-news">
+                        <div class="left-img">
+                            <a href="/news/@item.metaTitle"><img src="@item.images" /></a>
+                        </div>
+                        <div class="right-content">
+                            <a href="/news/@item.metaTitle"><h5>@item.title</h5></a>
+                            <p><span class="time">19:10</span>- 26/2/2019</p>
+                            @item.name
+                        </div>
+                    </div>
+                }
+
+                @*<div class="list-news">
+            <div class="left-img">
+                <img src="images/ky-thuat-dien-tu.PNG" />
+            </div>
+            <div class="right-content">
+                <a href="#"><h5>Thông tin tuyển sinh khoa điện tử</h5></a>
+                <p><span class="time">15:07</span> - 26/2/2019</p>
+                Thông tin tuyển sinh khoa điện tử 2019
+            </div>
+        </div>
+        <div class="list-news">
+            <div class="left-img">
+                <img src="images/ky-thuat-dien-tu.PNG" />
+            </div>
+            <div class="right-content">
+                <a href="#"><h5>Thông tin tuyển sinh khoa điện tử</h5></a>
+                <p><span class="time">15:07</span> - 26/2/2019</p>
+                Thông tin tuyển sinh khoa điện tử 2019
+            </div>
+        </div>*@
+                @Html.PagedListPager(Model, page => Url.Action("News", new { page, @searchString = ViewBag.SearchString }))
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <div class="head-nav">
+                    <h5>Danh mục</h5>
+                </div>
+                <div class="content-nav">
+                    <ul>
+                        @foreach (var item in SubMenus)
+                        {
+                            if (item.id == ViewBag.SubMenuId)
+                            {
+                                <li class="active"><a href="/@item.link">@item.text</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="/@item.link">@item.text</a></li>
+                            }
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+

@@ -1,207 +1,107 @@
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.csprojAssemblyReference.cache
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.csproj.CoreCompileInputs.cache
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\WebsiteKhoaCoKhi.dll.config
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\WebsiteKhoaCoKhi.pdb
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csc.exe
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csc.exe.config
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csc.rsp
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csi.exe
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csi.exe.config
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csi.rsp
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CSharp.Core.targets
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.Managed.Core.targets
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.VisualBasic.Core.targets
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.AppContext.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Collections.Immutable.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Console.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Diagnostics.StackTrace.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.Compression.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.FileSystem.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.FileSystem.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.Pipes.AccessControl.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.Pipes.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Reflection.Metadata.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.AccessControl.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Claims.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Cryptography.Encoding.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Cryptography.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Principal.Windows.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Text.Encoding.CodePages.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.ValueTuple.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Xml.ReaderWriter.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Xml.XmlDocument.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Xml.XPath.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Xml.XPath.XDocument.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\vbc.exe
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\vbc.exe.config
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\vbc.rsp
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\VBCSCompiler.exe
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\VBCSCompiler.exe.config
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Win32.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\netstandard.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.AppContext.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Collections.Concurrent.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Collections.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Collections.NonGeneric.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Collections.Specialized.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ComponentModel.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ComponentModel.EventBasedAsync.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ComponentModel.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ComponentModel.TypeConverter.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Console.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Data.Common.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.Contracts.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.Debug.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.FileVersionInfo.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.Process.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.StackTrace.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.TextWriterTraceListener.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.Tools.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.TraceSource.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Diagnostics.Tracing.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Drawing.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Dynamic.Runtime.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Globalization.Calendars.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Globalization.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Globalization.Extensions.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.Compression.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.Compression.ZipFile.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.FileSystem.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.FileSystem.DriveInfo.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.FileSystem.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.FileSystem.Watcher.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.IsolatedStorage.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.MemoryMappedFiles.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.Pipes.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.IO.UnmanagedMemoryStream.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Linq.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Linq.Expressions.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Linq.Parallel.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Linq.Queryable.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Http.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.NameResolution.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.NetworkInformation.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Ping.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Requests.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Security.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Sockets.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.WebHeaderCollection.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.WebSockets.Client.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.WebSockets.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ObjectModel.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Reflection.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Reflection.Extensions.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Reflection.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Resources.Reader.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Resources.ResourceManager.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Resources.Writer.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.CompilerServices.VisualC.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.Extensions.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.Handles.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.InteropServices.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.InteropServices.RuntimeInformation.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.Numerics.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.Serialization.Formatters.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.Serialization.Json.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.Serialization.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.Serialization.Xml.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Security.Claims.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Security.Cryptography.Algorithms.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Security.Cryptography.Csp.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Security.Cryptography.Encoding.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Security.Cryptography.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Security.Cryptography.X509Certificates.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Security.Principal.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Security.SecureString.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Text.Encoding.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Text.Encoding.Extensions.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Text.RegularExpressions.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Threading.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Threading.Overlapped.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Threading.Tasks.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Threading.Tasks.Parallel.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Threading.Thread.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Threading.ThreadPool.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Threading.Timer.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Xml.ReaderWriter.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Xml.XDocument.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Xml.XmlDocument.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Xml.XmlSerializer.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Xml.XPath.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Xml.XPath.XDocument.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Autofac.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_FileEditor.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_ImageResize.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_Watermark.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Config.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Core.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Host.Owin.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.KeyValue.FileSystem.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Logs.NLog.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.WebApp.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.Amazon.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.Azure.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.Dropbox.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.Ftp.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.Local.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\ImageProcessor.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Bcl.AsyncInterfaces.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Model.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Newtonsoft.Json.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\NLog.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Owin.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Http.Extensions.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Http.Formatting.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Http.Primitives.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.CompilerServices.Unsafe.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ValueTuple.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\EntityFramework.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Owin.Security.Cookies.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Owin.Security.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\AWSSDK.S3.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\AWSSDK.Core.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.WindowsAzure.Storage.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Dropbox.Api.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.FtpClient.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Azure.KeyVault.Core.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Model.pdb
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Model.dll.config
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Autofac.pdb
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Autofac.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder.pdb
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_FileEditor.pdb
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_ImageResize.pdb
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_Watermark.pdb
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Config.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Core.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Host.Owin.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Logs.NLog.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.Local.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\ImageProcessor.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Bcl.AsyncInterfaces.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\NLog.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.CompilerServices.Unsafe.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ValueTuple.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Newtonsoft.Json.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\EntityFramework.xml
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.csproj.CopyComplete
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.dll
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.pdb
-G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Assets\client\style.css
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Assets\client\style.css
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\WebsiteKhoaCoKhi.dll.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\WebsiteKhoaCoKhi.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csc.exe
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csc.exe.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csc.rsp
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csi.exe
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csi.exe.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\csi.rsp
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.Managed.Core.targets
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.AppContext.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Collections.Immutable.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Console.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.Compression.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.FileSystem.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.IO.Pipes.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Reflection.Metadata.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.AccessControl.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Claims.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Security.Principal.Windows.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.ValueTuple.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Xml.XmlDocument.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Xml.XPath.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\vbc.exe
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\vbc.exe.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\vbc.rsp
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\VBCSCompiler.exe
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\roslyn\VBCSCompiler.exe.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Autofac.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_FileEditor.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_ImageResize.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_Watermark.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Config.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Core.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.KeyValue.FileSystem.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Logs.NLog.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.Local.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\ImageProcessor.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Model.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Newtonsoft.Json.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\NLog.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Owin.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Http.Extensions.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Http.Formatting.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Http.Primitives.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ValueTuple.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\EntityFramework.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Owin.Security.Cookies.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Owin.Security.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\AWSSDK.S3.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\AWSSDK.Core.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.WindowsAzure.Storage.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Dropbox.Api.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.FtpClient.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Azure.KeyVault.Core.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Model.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Model.dll.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Autofac.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Autofac.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_FileEditor.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_ImageResize.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKFinder_Watermark.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Config.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Core.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.CKFinder.Connector.Logs.NLog.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\CKSource.FileSystem.Local.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\ImageProcessor.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\NLog.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ValueTuple.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Newtonsoft.Json.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\EntityFramework.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.csprojAssemblyReference.cache
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.csproj.CoreCompileInputs.cache
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.csproj.CopyComplete
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\obj\Debug\WebsiteKhoaCoKhi.pdb

@@ -299,9 +299,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -3241,10 +3238,6 @@
     <Content Include="Assets\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Assets\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Assets\ckfinder\userfiles\.htaccess" />
-    <Content Include="obj\Debug\build.force" />
-    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Debug\WebsiteKhoaCoKhi.csproj.CoreCompileInputs.cache" />
-    <Content Include="obj\Debug\WebsiteKhoaCoKhi.csprojAssemblyReference.cache" />
     <Content Include="Assets\ckeditor\CHANGES.md" />
     <Content Include="Assets\ckeditor\LICENSE.md" />
     <Content Include="Assets\ckeditor\plugins\exportpdf\CHANGELOG.md" />
@@ -3315,7 +3308,7 @@
     <Folder Include="Areas\Admin\Views\Base\" />
     <Folder Include="Data\files\" />
     <Folder Include="Models\" />
-    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Debug\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

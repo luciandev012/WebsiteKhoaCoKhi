@@ -1,0 +1,109 @@
+﻿@model Model.EF.New
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+@section jsFooter{
+    <script>
+        $('#btnSelectImage').on('click', (function (e) {
+            e.preventDefault();
+
+            var finder = new CKFinder();
+            //var finder = new CKFinder();
+
+            finder.selectActionFunction = function (url) {
+                $('#txtImage').val(url);
+
+            };
+            //finder.basePath = 'ckfinder/';
+            //finder.create();
+            finder.popup();
+
+        }))
+    </script>
+    <script>
+        $(document).ready(function () {
+            CKEDITOR.replace("txtContent", {
+                customConfig: '/Assets/ckeditor/config.js'
+            });
+        })
+    </script>
+}
+<h2>Thêm mới tin tức</h2>
+
+@using (Html.BeginForm("Create", "New", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>New</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.metaTitle, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.metaTitle, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.metaTitle, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.content, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.content,new { @class = "form-control", @id = "txtContent", @style = "height:500px" } )
+                @Html.ValidationMessageFor(model => model.content, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.images, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.images, new { @class = "form-control", @id = "txtImage" })
+                <button id="btnSelectImage" type="button" class="btn btn-primary" style="margin-top: 15px">Chọn ảnh</button>
+                @Html.ValidationMessageFor(model => model.images, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+       
+
+        
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.categoryId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.categoryId, null, new { @class = "form-control" } )
+                @Html.ValidationMessageFor(model => model.categoryId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Tạo mới" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

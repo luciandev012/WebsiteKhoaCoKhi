@@ -39,3 +39,44 @@ G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Mo
 G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\EntityFramework.xml
 G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\PagedList.dll
 G:\tai lieu hoc tap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Assets\client\style.css
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Assets\client\style.css
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\WebsiteKhoaCoKhi.Tests.dll.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\WebsiteKhoaCoKhi.Tests.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\WebsiteKhoaCoKhi.Tests.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.Helpers.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.Mvc.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.Razor.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.WebPages.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\WebsiteKhoaCoKhi.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.Optimization.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Model.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\EntityFramework.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\PagedList.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\WebsiteKhoaCoKhi.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\WebsiteKhoaCoKhi.dll.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.Helpers.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.Mvc.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.Razor.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.WebPages.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Model.pdb
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\Model.dll.config
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\bin\Debug\EntityFramework.xml
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\obj\Debug\WebsiteKhoaCoKhi.Tests.csprojAssemblyReference.cache
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\obj\Debug\WebsiteKhoaCoKhi.Tests.csproj.CoreCompileInputs.cache
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\obj\Debug\WebsiteKhoaCoKhi.Tests.csproj.CopyComplete
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\obj\Debug\WebsiteKhoaCoKhi.Tests.dll
+E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi.Tests\obj\Debug\WebsiteKhoaCoKhi.Tests.pdb
