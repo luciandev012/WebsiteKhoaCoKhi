@@ -3030,6 +3030,9 @@
     <Content Include="Data\images\3.jpg" />
     <Content Include="Data\images\4.jpg" />
     <Content Include="Data\images\5.jpg" />
+    <Content Include="Data\images\anh top.jpg" />
+    <Content Include="Data\images\anh1.jpg" />
+    <Content Include="Data\images\anh2.jpg" />
     <Content Include="Data\images\dien-tu-vien-thong.PNG" />
     <Content Include="Data\images\ha-long1.jpg" />
     <Content Include="Data\images\ha-long2.jpg" />
@@ -3272,6 +3275,9 @@
     <Content Include="Assets\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="Assets\ckeditor\skins\moono-lisa\readme.md" />
     <Content Include="Areas\Admin\Views\Menu\Index.cshtml" />
+    <None Include="Properties\PublishProfiles\cokhi-tnut - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\cokhi-tnut - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\cokhi-tnut - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -3302,6 +3308,7 @@
     <Content Include="Views\News\News.cshtml" />
     <Content Include="Views\Home\NewsEvent.cshtml" />
     <Content Include="Views\Home\Notice.cshtml" />
+    <Content Include="Views\Home\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

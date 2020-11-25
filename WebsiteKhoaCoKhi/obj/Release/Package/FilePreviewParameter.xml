@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="thangwebsite.somee.com" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\TaiLieuHocTap\\ASP\.NET\\WebsiteKhoaCoKhi\\WebsiteKhoaCoKhi\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\TaiLieuHocTap\\ASP\.NET\\WebsiteKhoaCoKhi\\WebsiteKhoaCoKhi\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="WebsiteKhoaCoKhiDbContext-Web.config Connection String" description="" value="data source=.;initial catalog=WebsiteKhoaCoKhi;user id=sa;password=123456;multipleactiveresultsets=True;application name=EntityFramework;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\TaiLieuHocTap\\ASP\.NET\\WebsiteKhoaCoKhi\\WebsiteKhoaCoKhi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebsiteKhoaCoKhiDbContext']/@connectionString" />
+  </parameter>
+</parameters>

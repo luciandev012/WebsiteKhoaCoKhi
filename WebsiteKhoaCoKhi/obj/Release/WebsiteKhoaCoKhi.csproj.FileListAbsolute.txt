@@ -71,14 +71,6 @@ E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.Http.P
 E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Runtime.CompilerServices.Unsafe.dll
 E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.ValueTuple.dll
 E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\EntityFramework.dll
-E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Owin.Security.Cookies.dll
-E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Owin.Security.dll
-E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\AWSSDK.S3.dll
-E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\AWSSDK.Core.dll
-E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.WindowsAzure.Storage.dll
-E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Dropbox.Api.dll
-E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\System.Net.FtpClient.dll
-E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Microsoft.Azure.KeyVault.Core.dll
 E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Model.pdb
 E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Model.dll.config
 E:\TaiLieuHocTap\ASP.NET\WebsiteKhoaCoKhi\WebsiteKhoaCoKhi\bin\Autofac.pdb
