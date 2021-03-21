@@ -1,0 +1,5 @@
+-------Hu?ng d?n s? d?ng-------
+--Bu?c 1: Vào trong folder project m? WebsiteKhoaCoKhi.sln
+--Bu?c 2: B?m Run ho?c Ctrl + F5.
+--Bu?c 3: Ð?i Web lên thì m? ngrok.exe r?i gõ: ngrok http --host-header="localhost:" 58157 (enter)
+-- Copy du?ng link m?i là dã publish du?c web.
