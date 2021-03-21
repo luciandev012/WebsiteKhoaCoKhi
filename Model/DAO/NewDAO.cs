@@ -67,6 +67,7 @@ namespace Model.DAO
                 anew.title = entity.title;
                 anew.modifyDate = DateTime.Now;
                 anew.modifyBy = entity.modifyBy;
+                anew.images = entity.images;
                 db.SaveChanges();
                 return true;
             }

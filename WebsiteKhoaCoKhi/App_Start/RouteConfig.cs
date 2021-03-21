@@ -14,12 +14,18 @@ namespace WebsiteKhoaCoKhi
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+               name: "SearchNews",
+               url: "News/SearchNews",
+               defaults: new { controller = "News", action = "SearchNews", id = UrlParameter.Optional },
+               namespaces: new[] { "WebsiteKhoaCoKhi.Controllers" }
+           );
+            routes.MapRoute(
                name: "News",
                url: "news/{metaTitle}",
                defaults: new { controller = "News", action = "Index", id = UrlParameter.Optional },
                namespaces: new[] { "WebsiteKhoaCoKhi.Controllers" }
            );
-
+            
             routes.MapRoute(
               name: "AllNews",
               url: "{metaTitle}",

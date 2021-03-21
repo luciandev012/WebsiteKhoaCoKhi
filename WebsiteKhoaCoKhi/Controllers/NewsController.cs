@@ -39,6 +39,10 @@ namespace WebsiteKhoaCoKhi.Controllers
             var newDao = new NewDAO();
             var model = newDao.listAllByType(cateId, page, 10);
             return View(model);
-        } 
+        }
+        public ActionResult SearchNews(string searchString, int page = 1)
+        {
+            return View();
+        }
     }
 }

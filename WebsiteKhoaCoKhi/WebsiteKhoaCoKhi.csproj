@@ -3046,6 +3046,8 @@
     <Content Include="Data\images\logo-viettel.png" />
     <Content Include="Data\images\right.jpg" />
     <Content Include="Data\images\slide1.jpg" />
+    <Content Include="Data\images\slides1.jpg" />
+    <Content Include="Data\images\slides2.jpg" />
     <Content Include="Data\images\top.jpg" />
     <Content Include="Data\images\tuyen-sinh.jpg" />
     <Content Include="Data\_thumbs\Files\6.PNG" />
@@ -3309,6 +3311,7 @@
     <Content Include="Views\Home\NewsEvent.cshtml" />
     <Content Include="Views\Home\Notice.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
+    <Content Include="Views\News\SearchNews.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -101,7 +101,7 @@ ul{
 }
 .carousel-inner img{
     width: 100%;
-    height: auto;
+    height: 300px;
 }
 #content{ 
     margin-top: 40px;
@@ -343,4 +343,11 @@ ul{
 .img-item{
     width: 340px;
     height: 230px;
+}
+#search-new img {
+    width: 340px;
+    height: 230px;
+}
+carousel-inner img {
+    height: 400px;
 }

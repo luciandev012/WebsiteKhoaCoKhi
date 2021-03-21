@@ -13,16 +13,17 @@
                     <p>@DateTime.Now.ToString("HH:mm 'Ngày' dd/MM/yyyy")</p>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12" style="padding-bottom: 15px;padding-right:0;">
-                    <form>
+                    @using (Html.BeginForm("SearchNews", "News", FormMethod.Get))
+                    {
                         <div class="search input-group">
-                            <input type="text" style="border: none;" class="form-control" placeholder="Tìm kiếm theo từ khóa">
+                            <input type="text" style="border: none;" class="form-control" placeholder="Tìm kiếm theo từ khóa" name="searchString">
                             <div class="input-group-btn">
                                 <button type="submit" class="btn">
                                     <i class="fa fa-search"></i>
                                 </button>
                             </div>
                         </div>
-                    </form>
+                    }
                 </div>
             </div>
         </div>
