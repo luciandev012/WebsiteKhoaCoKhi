@@ -24,6 +24,7 @@ span{
 }
 #menu{
     padding:0;
+    font-weight: bold;
 }
 img {
     max-height: 100%;
@@ -196,7 +197,7 @@ ul{
 .hnew i{
     margin-right: 10px;
 }
-#leftNew a{
+#leftNew p > a{
     color: blue!important;
     font-weight: 700;
     font-size: 20px;
@@ -293,7 +294,11 @@ ul{
             color: white !important;
         }
 .news-item{
-    height:400px;
+    height: 300px;
+}
+.news-item img{
+    height: 260px;
+    width: 100%;
 }
 .left-ad{
     position: absolute;
@@ -350,4 +355,38 @@ ul{
 }
 carousel-inner img {
     height: 400px;
+}
+
+.dropdown-menu li{
+    position: relative;
+}
+.dropdown-menu .sub-menu{
+    position: absolute;
+    left: 260px;
+    top:0;
+    display: none;
+}
+.dropdown-menu .sub-menu li {
+        display: none;
+}
+.dropdown-menu li:hover .sub-menu li{
+    display: block;
+}
+.sub-menu li{
+    position: relative;
+}
+.sub-menu li .menu2{
+    position: absolute;
+    left: 260px;
+    top: 0;
+    display: none;
+}
+.dropdown-menu li .sub-menu li .menu2 li{
+    display: none;
+}
+.dropdown-menu li .sub-menu li:hover .menu2 li {
+    display: block;
+}
+#navbarNav ul li{
+    padding-left: 15px;
 }

@@ -1,4 +1,5 @@
-﻿
+﻿@model PagedList.IPagedList<Model.EF.New>
+@using PagedList.Mvc;
 @{
     ViewBag.Title = "SearchNews";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -35,36 +36,17 @@
 
         </div>
         <div class="row">
-            <div class="col-md-4" id="search-new">
-                <a href="#"><img src="~/Data/images/3.jpg" /></a>
-                <a href="#">Thông tin tuyển sinh</a>
-                <p>Thông tin tuyển sinh năm 2021</p>
-            </div>
-            <div class="col-md-4" id="search-new">
-                <a href="#"><img src="~/Data/images/3.jpg" /></a>
-                <a href="#">Thông tin tuyển sinh</a>
-                <p>Thông tin tuyển sinh năm 2021</p>
-            </div>
-            <div class="col-md-4" id="search-new">
-                <a href="#"><img src="~/Data/images/3.jpg" /></a>
-                <a href="#">Thông tin tuyển sinh</a>
-                <p>Thông tin tuyển sinh năm 2021</p>
-            </div>
-            <div class="col-md-4" id="search-new">
-                <a href="#"><img src="~/Data/images/3.jpg" /></a>
-                <a href="#">Thông tin tuyển sinh</a>
-                <p>Thông tin tuyển sinh năm 2021</p>
-            </div>
-            <div class="col-md-4" id="search-new">
-                <a href="#"><img src="~/Data/images/3.jpg" /></a>
-                <a href="#">Thông tin tuyển sinh</a>
-                <p>Thông tin tuyển sinh năm 2021</p>
-            </div>
-            <div class="col-md-4" id="search-new">
-                <a href="#"><img src="~/Data/images/3.jpg" /></a>
-                <a href="#">Thông tin tuyển sinh</a>
-                <p>Thông tin tuyển sinh năm 2021</p>
-            </div>
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4" id="search-new">
+                    <a href="/@item.metaTitle"><img src="@item.images" /></a>
+                    <a href="/@item.metaTitle">@item.title</a>
+                    <p>@item.name</p>
+                </div>
+            }
+            
+
         </div>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = ViewBag.SearchString }))
     </div>
 

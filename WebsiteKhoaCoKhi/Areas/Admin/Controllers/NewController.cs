@@ -7,6 +7,8 @@ using System.Web.Mvc;
 using Model.DAO;
 using WebsiteKhoaCoKhi.Common;
 using PagedList;
+using System.Text.RegularExpressions;
+using System.Text;
 
 namespace WebsiteKhoaCoKhi.Areas.Admin.Controllers
 {
@@ -30,23 +32,21 @@ namespace WebsiteKhoaCoKhi.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Create(New anew)
         {
-            if (ModelState.IsValid)
+            var dao = new NewDAO();
+            anew.createdDate = DateTime.Now;
+            var session = (AdminLogin)Session[CommonConstants.USER_SESSION];
+            anew.createdBy = session.AdminName;
+            anew.newView = 0;
+            anew.metaTitle = convertToUnSign(anew.title);
+            long id = dao.Insert(anew);
+            if (id > 0)
             {
-                var dao = new NewDAO();
-                anew.createdDate = DateTime.Now;
-                var session = (AdminLogin)Session[CommonConstants.USER_SESSION];
-                anew.createdBy = session.AdminName;
-                anew.newView = 0;
-                long id = dao.Insert(anew);
-                if(id > 0)
-                {
-                    SetAlert("Thêm tin thành công!", "success");
-                    return RedirectToAction("Index", "New");
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Thêm tin không thành công");
-                }
+                SetAlert("Thêm tin thành công!", "success");
+                return RedirectToAction("Index", "New");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Thêm tin không thành công");
             }
             SetViewBag();
             return View("Index");
@@ -60,22 +60,19 @@ namespace WebsiteKhoaCoKhi.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Edit(New anew)
         {
-            if (ModelState.IsValid)
+            var dao = new NewDAO();
+            var session = (AdminLogin)Session[CommonConstants.USER_SESSION];
+            anew.modifyBy = session.AdminName;
+            anew.metaTitle = convertToUnSign(anew.title);
+            var rs = dao.Update(anew);
+            if (rs)
             {
-                var dao = new NewDAO();
-                var session = (AdminLogin)Session[CommonConstants.USER_SESSION];
-                anew.modifyBy = session.AdminName;
-                
-                var rs = dao.Update(anew);
-                if (rs)
-                {
-                    SetAlert("Sửa tin thành công!", "success");
-                    return RedirectToAction("Index", "New");
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Sửa tin không thành công");
-                }
+                SetAlert("Sửa tin thành công!", "success");
+                return RedirectToAction("Index", "New");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Sửa tin không thành công");
             }
             SetViewBag(anew.categoryId);
             return View("Index");
@@ -93,6 +90,14 @@ namespace WebsiteKhoaCoKhi.Areas.Admin.Controllers
             var dao =  new CategoryNewDAO();
             ViewBag.categoryId = new SelectList(dao.ListAll(), "id", "name", selectedId);
 
+        }
+        public static string convertToUnSign(string s)
+        {
+            Regex regex = new Regex("\\p{IsCombiningDiacriticalMarks}+");
+            string temp = s.Normalize(NormalizationForm.FormD);
+            string unsign = regex.Replace(temp, String.Empty).Replace('\u0111', 'd').Replace('\u0110', 'D').ToLower();
+            string slug = unsign.Replace(' ', '-');
+            return slug;
         }
     }
 }

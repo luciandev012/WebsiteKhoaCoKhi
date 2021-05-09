@@ -79,7 +79,7 @@
                     </tbody>
                 </table>
                 <a href="/Admin/New/Create" class="btn btn-primary">Thêm mới</a>
-                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = ViewBag.SearchString}))
+                @Html.PagedListPager(Model, page => Url.Action("", new { page, @searchString = ViewBag.SearchString}))
             </div>
         </div>
     </div>

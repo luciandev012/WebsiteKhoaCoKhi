@@ -22,6 +22,10 @@ namespace Model.DAO
         public int GetTypeMenu(string metaTitle)
         {
             var item = db.SubMenus.SingleOrDefault(x => x.link == metaTitle);
+            if(item == null)
+            {
+                return -1;
+            }
             return item.typeMenu;
         }
         public int GetId(string metaTitle)

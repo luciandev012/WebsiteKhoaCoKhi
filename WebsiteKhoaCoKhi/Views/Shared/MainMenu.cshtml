@@ -13,119 +13,7 @@
                 <li>
                     <a class="nav-link" href="/news/tuyen-sinh">Tuyển sinh 2021</a>
                 </li>
-                @*<li class="nav-item dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Giới thiệu
-                <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-
-                <li>
-                    <a href="#">Ban chủ nhiệm khoa</a>
-                </li>
-                <li>
-                    <a href="#">Bộ môn Chế tạo máy</a>
-                </li>
-                <li>
-                    <a href="#">Bộ môn Thiết kế cơ khí</a>
-                </li>
-                <li>
-                    <a href="#">Bộ môn Công nghệ vật liệu</a>
-                </li>
-                <li>
-                    <a href="#">Bộ môn Cơ điện tử</a>
-                </li>
-                <li>
-                    <a href="#">Hội đồng khoa học</a>
-                </li>
-                <li>
-                    <a href="#">Hội đồng thi</a>
-                </li>
-                <li>
-                    <a href="#">Trợ lí khoa</a>
-                </li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Tin tức
-                <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-                <li>
-                    <a href="admission.html">Tin tuyển sinh</a>
-                </li>
-                <li>
-                    <a href="#">Tin tức đào tạo</a>
-                </li>
-                <li>
-                    <a href="#">Tin nghiên cứu khoa học</a>
-                </li>
-                <li>
-                    <a href="#">Đoàn hội</a>
-                </li>
-                <li>
-                    <a href="#">Tin tức khác</a>
-                </li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Đào tạo
-                <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-                <li>
-                    <a href="#">Quy chế đào tạo</a>
-                </li>
-                <li>
-                    <a href="#">Đào tạo sau đại học</a>
-                </li>
-                <li>
-                    <a href="#">Đào tạo Đại học</a>
-                </li>
-
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Khoa học - công nghệ
-                <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-                <li>
-                    <a href="#">Đề tài khoa học công nghệ các cấp</a>
-                </li>
-                <li>
-                    <a href="#">Các bài báo khoa học</a>
-                </li>
-                <li>
-                    <a href="#">Chuyển giao công nghệ</a>
-                </li>
-
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Sinh viên
-                <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-                <li>
-                    <a href="#">Hoạt động</a>
-                </li>
-                <li>
-                    <a href="#">Học bổng</a>
-                </li>
-                <li>
-                    <a href="#">Các biểu mẫu</a>
-                </li>
-                <li>
-                    <a href="#">Tuyển dụng</a>
-                </li>
-
-            </ul>
-        </li>*@
+               
                 @foreach (var item in Model)
                 {
                     if (item.link == "gioi-thieu")
@@ -138,9 +26,32 @@
                             <ul class="dropdown-menu">
                                 @foreach (var subItem in item.SubMenus)
                                 {
-                                    <li>
-                                        <a href="/news/@subItem.link">@subItem.text</a>
-                                    </li>
+                                    if (subItem.link == "cac-bo-mon")
+                                    {
+                                        <li>
+                                            <a href="#">@subItem.text</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="/news/bo-mon-co-dien-tu">Bộ môn Cơ điện tử</a></li>
+                                                <li>
+                                                    <a href="/news/bo-mon-cong-nghe-vat-lieu">Bộ môn Công nghệ vật liệu</a>
+                                                    <ul class="menu2">
+                                                        <li><a href="/news/chuyen-nganh-gcal">Chuyên ngành GCAL</a></li>
+                                                        <li><a href="/news/nganh-ktvl">Ngành KTVL</a></li>
+
+                                                    </ul>
+                                                </li>
+                                                <li><a href="/news/bo-mon-che-tao-may">Bộ môn Chế tạo máy</a></li>
+                                                <li><a href="/news/bo-mon-thiet-ke-co-khi">Bộ môn Thiết kế cơ khí</a></li>
+                                                <li><a href="/news/bo-mon-chi-tiet-may">Bộ môn Chi tiết máy</a></li>s
+                                            </ul>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li>
+                                            <a href="/news/@subItem.link">@subItem.text</a>
+                                        </li>
+                                    }
                                 }
 
 
@@ -174,61 +85,3 @@
         </div>
     </div>
 </nav>
-@*<nav class="navbar navbar-expand-lg navbar-light bg-primary" id="nav">
-        <div class="container" id="menu">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a class="nav-link" href="./index.html">Trang chủ</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="./admission.html">Tuyển sinh 2020</a>
-                    </li>
-                    @foreach (var item in Model)
-                    {
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="@item.link">
-                                @item.text
-                                <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu">
-
-                                <li>
-                                    <a href="#">Ban chủ nhiệm khoa</a>
-                                </li>
-                                <li>
-                                    <a href="#">Bộ môn Chế tạo máy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Bộ môn Thiết kế cơ khí</a>
-                                </li>
-                                <li>
-                                    <a href="#">Bộ môn Công nghệ vật liệu</a>
-                                </li>
-                                <li>
-                                    <a href="#">Bộ môn Cơ điện tử</a>
-                                </li>
-                                <li>
-                                    <a href="#">Hội đồng khoa học</a>
-                                </li>
-                                <li>
-                                    <a href="#">Hội đồng thi</a>
-                                </li>
-                                <li>
-                                    <a href="#">Trợ lí khoa</a>
-                                </li>
-                            </ul>
-                        </li>
-                    }
-
-
-
-                </ul>
-                <ul class="navbar-nav ml-auto"></ul>
-            </div>
-        </div>
-    </nav>*@

@@ -19,10 +19,13 @@ namespace WebsiteKhoaCoKhi.Controllers
             ViewBag.Category = cateDao.GetCategoryNew(model.categoryId);
             string cateTitle = cateDao.GetCategoryMetaTitle((int)model.categoryId);
             int menuType = subDAO.GetTypeMenu(cateTitle);
-            ViewBag.SubMenus = subDAO.ListSubMenuByType(menuType);
-            ViewBag.SubMenuId = subDAO.GetId(cateTitle);
-            ViewBag.SubText = subDAO.GetText(cateTitle);
-            dao.UpdateView(metaTitle);
+            if(menuType != -1)
+            {
+                ViewBag.SubMenus = subDAO.ListSubMenuByType(menuType);
+                ViewBag.SubMenuId = subDAO.GetId(cateTitle);
+                ViewBag.SubText = subDAO.GetText(cateTitle);
+                dao.UpdateView(metaTitle);
+            }
             return View(model);
         }
         public ActionResult News(string metaTitle, int page = 1)
@@ -42,7 +45,10 @@ namespace WebsiteKhoaCoKhi.Controllers
         }
         public ActionResult SearchNews(string searchString, int page = 1)
         {
-            return View();
+            var dao = new NewDAO();
+            var model = dao.listAll(searchString, page, 10);
+            ViewBag.SearchString = searchString;
+            return View(model);
         }
     }
 }

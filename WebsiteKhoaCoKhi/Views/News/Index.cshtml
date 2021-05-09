@@ -59,15 +59,18 @@
                     </div>
                     <div class="content-nav">
                         <ul>
-                            @foreach (var item in subMenu)
+                            @if (subMenu != null)
                             {
-                                if (item.id == ViewBag.SubMenuId)
+                                foreach (var item in subMenu)
                                 {
-                                    <li class="active"><a href="/@item.link">@item.text</a></li>
-                                }
-                                else
-                                {
-                                    <li><a href="/@item.link">@item.text</a></li>
+                                    if (item.id == ViewBag.SubMenuId)
+                                    {
+                                        <li class="active"><a href="/@item.link">@item.text</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a href="/@item.link">@item.text</a></li>
+                                    }
                                 }
                             }
                         </ul>
